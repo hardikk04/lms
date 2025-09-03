@@ -1,11 +1,16 @@
 import React from "react";
 import { Button } from "./components/ui/button";
+import Login from "./pages/auth/Login";
+import Navbar from "./components/shared/navbar/Navbar";
+import HeroSection from "./pages/student/HeroSection";
 
 const App = () => {
   return (
-    <div className="text-red-300">
-      <Button className={"bg-red-300"}>hello</Button>
-    </div>
+    <main className="">
+      <Navbar></Navbar>
+      <HeroSection />
+      <Login />
+    </main>
   );
 };
 
