@@ -78,7 +78,7 @@ const MobileNavbar = () => {
   const role = "instructor";
   return (
     <Sheet>
-      <SheetTrigger>
+      <SheetTrigger asChild>
         <Button
           size={"icon"}
           className={"rounded-full bg-gray-200 hover:bg-gray-200"}
